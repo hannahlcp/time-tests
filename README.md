@@ -54,6 +54,9 @@ def test_given_input():
 ## Step 3: Running the tests
 - run `pytest` on that directory and see whether the test is picked up by `pytest` and whether it passes. If the test doesn't pass, see if you can find what is going wrong.
 
+> [!NOTE]
+> If you have created the environment using `uv` and installed `pytest` with it then you need to run `uv run pytest` or use the VS Code testing menu.
+
 ## Step 4: Push to GitHub
 - When you are happy with your solution (or want some feedback!):
     - Push your new code to your own fork.
