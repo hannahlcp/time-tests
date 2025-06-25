@@ -43,3 +43,6 @@ def test_times_backward():
 def test_interval_larger_than_range():
     with raises(ValueError, match = r"Gap between intervals must be less than the total time range"):
         times.time_range("2025-06-25 00:00:00", "2025-06-25 00:00:10", 2, 20)
+
+# To generate coverage report, run:
+pytest --cov="times" --cov-report "html"
